@@ -1,0 +1,30 @@
+### GET
+GET http://localhost:3000/dogs
+
+###
+GET http://localhost:3000/dogs/63feb2345dfee88038a5b630
+
+### pOST
+POST http://localhost:3000/dogs/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Joel",
+  "breed": "Dingo",
+  "age": "1 year old",
+  "hasTail": true
+}
+
+###
+PUT http://localhost:3000/dogs/63feb2345dfee88038a5b630 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Joel",
+  "breed": "Dingo",
+  "age": "2 years old",
+  "hasTail": false
+}
+
+###
+DELETE http://localhost:3000/dogs/63feb39a7cd77b2a07e407a9

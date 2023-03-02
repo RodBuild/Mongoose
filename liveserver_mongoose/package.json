@@ -1,0 +1,22 @@
+{
+  "name": "live_server",
+  "version": "1.0.0",
+  "description": "Testing with Mongoose and MongoDb",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "",
+    "start": "node server.js"
+  },
+  "author": "Rodrigo Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
